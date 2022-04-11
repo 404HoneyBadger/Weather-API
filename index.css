@@ -21,7 +21,8 @@ body {
 .top-row {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: right;
+    align-items:bottom;
     gap: 10px;
 }
 .searchBar {
@@ -34,11 +35,13 @@ text-align: center;
 }
 
 button  {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.66);
+    background-color: rgba(0, 0, 0, 0.364);
     border-radius: 100%;
+    margin-top: 5px;
+    padding: 0px;
 }
 
 .temp {
@@ -111,8 +114,8 @@ h1 {
 }
 
 #mimage {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .weather-card .top {
