@@ -100,6 +100,7 @@ button  {
   line-height: 2em;
   text-align: center;
   border: solid black;
+  letter-spacing: 2px;
 }
 
 .tempBox {

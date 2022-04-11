@@ -29,10 +29,10 @@ let weather = {
       document.querySelector(".description").innerText = description;
       document.querySelector(".temp_max").innerText = "Max: " + Math.round(temp_max) + "°F";
       document.querySelector(".temp_min").innerText = "Min: " + Math.round(temp_min) + "°F"; 
-      document.querySelector(".feels_like").innerText = "Feels Like " + Math.round(feels_like) + "°F";
-      document.querySelector(".temp").innerText = Math.round(temp) + "°F";
+      document.querySelector(".feels_like").innerText = "Feels Like " + Math.round(feels_like) + "°F  ";
+      document.querySelector(".temp").innerText = Math.round(temp) + "°F  ";
       document.querySelector(".humidity").innerText =
-        "Humidity " + humidity + "%";
+        "Humidity " + humidity + "%  ";
       document.querySelector(".wind").innerText =
         "Wind " + Math.round(speed) + "m/h  ";
       
