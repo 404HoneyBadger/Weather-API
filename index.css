@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+body {
+    display:block;
+    justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background: #112233;
+}
+
+.col {
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+	flex-wrap: nowrap;
+    margin-top: 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+.top-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+.searchBar {
+    height: 50px;
+    
+    border-radius: 25px ;
+    font-size: 20px;
+    border:inset ;
+text-align: center;
+}
+
+button  {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 100%;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.weather-card {
+  margin: auto;
+  height: fit-content;
+  width: 450px;
+  background: #fff;
+  color: white;
+  box-shadow: 0 1px 38px black;
+  overflow: hidden;
+}
+.weather-card .top {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  overflow: hidden;
+  background: url("https://s-media-cache-ak0.pinimg.com/564x/cf/1e/c4/cf1ec4b0c96e59657a46867a91bb0d1e.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+.weather-card .top .wrapper {
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.weather-card .top .wrapper .description {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.weather-card .top .wrapper .temp {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.weather-card .bottom {
+  padding: 25px;
+  background: #fff;
+  height: fit-content;
+}
+.bottom .wrapper .forecast {
+  overflow: hidden;
+  height: fit-content;
+  display: flex;
+  font-size: 20px;
+  color: black;
+  line-height: 2em;
+  text-align: center;
+  border: solid black;
+}
+
+.tempBox {
+  font-size: 25px ;
+  margin: 5px;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+#mimage {
+  height: 40px;
+  width: 40px;
+}
+
+.weather-card .top {
+  background: url("https://img.freepik.com/free-vector/cartoon-galaxy-background-with-planets_23-2148966504.jpg?t=st=1649639827~exp=1649640427~hmac=ac6b7bee1a739368ab5abf46a66ef732eb04cb5dd4e630d497217443f5f22dd1&w=1060") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
