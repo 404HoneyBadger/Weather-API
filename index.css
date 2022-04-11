@@ -41,7 +41,6 @@ button  {
     background-color: rgba(0, 0, 0, 0.364);
     border-radius: 100%;
     margin-top: 5px;
-    padding: 0px;
 }
 
 .temp {
@@ -75,7 +74,6 @@ button  {
 }
 
 .weather-card .top .wrapper .description {
-  margin-top: 20px;
   font-size: 35px;
   font-weight: 400;
   color: #fff;

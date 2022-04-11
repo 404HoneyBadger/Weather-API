@@ -1,6 +1,7 @@
 let weather = {
   APIkey: "b45fc1e4a5d228ab318f35ea243366c9",
   
+  
   fetchWeather: function (city) {
 
     fetch(
@@ -34,8 +35,7 @@ let weather = {
         "Humidity " + humidity + "%";
       document.querySelector(".wind").innerText =
         "Wind " + Math.round(speed) + "m/h  ";
-      document.body.style.backgroundImage =
-        "url('https://source.unsplash.com/1600x900/?" + "galaxy" + "')";
+      
     },
     search: function () {
       this.fetchWeather(document.querySelector(".searchBar").value);
@@ -44,6 +44,8 @@ let weather = {
   
   document.querySelector("button").addEventListener("click", function () {
     weather.search();
+    document.body.style.backgroundImage =
+        "url('https://source.unsplash.com/1600x900/?" + "space" + "')";
   });
   
   document
@@ -51,7 +53,12 @@ let weather = {
     .addEventListener("keyup", function (event) {
       if (event.key == "Enter") {
         weather.search();
+        document.body.style.backgroundImage =
+        "url('https://source.unsplash.com/1600x900/?" + "nebula" + "')";
       }
+
     });
   
   weather.fetchWeather("10310");
+  document.body.style.backgroundImage =
+        "url('https://source.unsplash.com/1600x900/?" + "galaxy" + "')";
