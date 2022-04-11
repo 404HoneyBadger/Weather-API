@@ -23,7 +23,7 @@ let weather = {
       let time= Date.now()
       document.querySelector(".city").innerText = name;
       document.querySelector(".icon").src =
-        "https://openweathermap.org/img/wn/" + icon + ".png";
+        "https://openweathermap.org/img/wn/" + icon + "@2x.png";
         document.querySelector(".date").innerText = new Date(time).toUTCString().slice(0, 12),
       document.querySelector(".description").innerText = description;
       document.querySelector(".temp_max").innerText = "Max: " + Math.round(temp_max) + "°F";
